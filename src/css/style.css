@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-    font-family: 'Inter';
-}
+@import url(./_reset.css);
 
 body {
     background-color: #09090A;
@@ -20,22 +14,22 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    padding: 48px;
+    padding: 4.8rem;
 }
 
 button {
     background-color: transparent;
     color: #fff;
     border: 1px solid #8B5CF6;
-    border-radius: 8px;
+    border-radius: 0.8rem;
 
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 1.2rem;
 
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.6rem;
     line-height: 125%;
 
-    padding: 18px 24px;
+    padding: 1.8rem 2.4rem;
 }
